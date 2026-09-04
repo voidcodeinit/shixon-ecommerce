@@ -22,7 +22,7 @@ Add a real screen-recording GIF at `assets/demo.gif` when publishing the reposit
 
 ## Preview
 
-![Shixon E-commerce](#)
+![Shixon E-commerce](/snapshot.png)
 
 ## Built With
 
