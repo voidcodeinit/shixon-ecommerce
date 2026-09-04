@@ -1,0 +1,156 @@
+Colors {
+  background: #e040fb;
+  background: #8e44ad;
+  background: #fdf9ff;
+  background: #e4e5e7;
+  background: #e7d9ea;
+}
+@font-face {
+  font-family: iransans;
+  src: url(../assets/fonts/iransansweb.ttf) format('truetype'),
+    url(../assets/fonts/iransansweb.woff) format('woff');
+  font-weight: normal;
+}
+body {
+  padding-top: 102px;
+}
+[placeholder] {
+  opacity: 0.7;
+}
+.fs-default{
+  font-family:iransans, sans-serif ;
+  font-size: .875rem /* 14px -> .875rem */;
+}
+.fw-600{
+  font-weight: 600;
+}
+.bg-light-purple {
+  color: #e040fb;
+}
+.bg-dark-purple {
+  color: #8e44ad;
+}
+.text-light-purple {
+  color: #e040fb;
+}
+.txt-dark-purple {
+  color: #8e44ad;
+}
+.mt-custom {
+  margin-top: 100px;
+}
+
+.bg-image {
+  background: url('../assets/_TopCampain1244104682.jpg') no-repeat;
+  background-size: cover;
+  background-position: top center;
+  padding: 19px 0;
+  margin: 0;
+}
+.w-370 {
+  max-width: 370px;
+}
+.w-755 {
+  max-width: 755px;
+}
+.w-75 {
+  width: 75%;
+}
+.w-15 {
+  width: 15rem;
+}
+.h-30 {
+  height: 30px;
+}
+.py-20 {
+  padding-top: 11px;
+  padding-bottom: 11px;
+}
+.icon-w {
+  width: 16px;
+}
+.fs-12 {
+  font-size: 12px;
+  font-family: iransans, sans-serif;
+}
+.fs-14 {
+  font-size: 14px !important;
+}
+.fs-custom {
+  font-size: 12px;
+  font-family: iransans, sans-serif;
+  font-weight: 600;
+}
+
+.social-link:hover {
+  color: #fdf9ff !important;
+  background: #8e44ad;
+}
+.social-link:hover .filter {
+  filter: brightness(220%);
+}
+
+
+
+.top-r-25 {
+  top: -2%;
+}
+.bottom-r-25 {
+  bottom: -2%;
+}
+.start-47 {
+  right: 50%;
+  transform: translateX(50%);
+}
+.px-custom {
+  padding-left: 5rem  !important;
+  padding-right: 5rem !important;
+}
+
+
+.badge-overlay {
+  position: absolute;
+  top: -6%;
+  right: -50%;
+  transform:translateX(-10%) rotate(45deg);
+  -ms-transform-origin: top left;
+  -webkit-transform-origin: top left;
+  transform-origin: top left;
+  width: 100%;
+}
+.bg-attach{
+  background:url("../assets/footer-bg.jpg") no-repeat;
+  background-size: cover;
+  background-position: top center;
+  background-attachment: fixed;
+  
+}
+.show-hover:hover .show-btn{
+  transition: all .3s;
+  display: block !important;
+  background: #8e44ad;
+}
+
+/* OverWrite Classes */
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+.form-control:focus {
+  border-color: #dee2e6;
+  outline: none;
+  box-shadow: none;
+}
+.tooltip {
+  width: 60px;
+  font-size: 10px;
+  font-weight: 600;
+  border-radius: 20px;
+}
+.tooltip > * {
+  opacity: 0.8;
+}
+.carousel-indicators [data-bs-target] {
+  border-radius: 50%;
+  width: 8px;
+  height: 8px;
+}

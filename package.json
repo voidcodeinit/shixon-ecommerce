@@ -1,0 +1,16 @@
+{
+  "name": "shixon-ecommerce",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Responsive Persian RTL e-commerce storefront UI inspired by Shixon.",
+  "keywords": [
+    "html",
+    "css",
+    "bootstrap",
+    "rtl",
+    "persian",
+    "ecommerce",
+    "responsive-design"
+  ],
+  "license": "MIT"
+}
